@@ -146,7 +146,6 @@ const StyledElementForCard = styled('div', {
         alignItems: 'center',
         position: 'relative',
         overflow: 'hidden',
-        borderRadius: '$radii$4',
         backgroundColor: '$backgroundColors$white',
       },
     },
