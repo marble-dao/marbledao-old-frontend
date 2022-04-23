@@ -253,7 +253,7 @@ const TokenAirdrop: NextPage = () => {
                   </Text>
                   <Text as="span" variant="title">
                     {cw20Balance && (
-                      <span><img src="https://raw.githubusercontent.com/MarbleDAO/brand-assets/main/block.png" alt="BLOCK"/>{` ${Number(airdropAmount / 1000).toFixed(2)} ${tokenInfo.symbol} `}</span>
+                      <span><img src="https://raw.githubusercontent.com/MarbleDAO/brand-assets/main/block.png" alt="BLOCK"/>{` ${Number(airdropAmount / 1000000).toFixed(2)} ${tokenInfo.symbol} `}</span>
                     )}
                   </Text>
                 </div>
@@ -263,7 +263,7 @@ const TokenAirdrop: NextPage = () => {
                   </Text>
                   <Text as="span" variant="title">
                     {cw20Balance && (
-                      <span><img src="https://raw.githubusercontent.com/MarbleDAO/brand-assets/main/block.png" alt="BLOCK"/>{` ${(Number(cw20Balance) / 1000).toFixed(2)} ${tokenInfo.symbol} `}</span>
+                      <span><img src="https://raw.githubusercontent.com/MarbleDAO/brand-assets/main/block.png" alt="BLOCK"/>{` ${(Number(cw20Balance) / 1000000).toFixed(2)} ${tokenInfo.symbol} `}</span>
                     )}
                   </Text>
                 </div>
