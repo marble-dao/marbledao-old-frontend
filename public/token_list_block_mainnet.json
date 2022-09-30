@@ -23,7 +23,6 @@
       "native":false,
       "denom":"block"
     },
-
  "native_token": {
     "id": "juno-network",
     "pool_id": "JUNO+JUNO",
@@ -61,7 +60,8 @@
       "pool_id": "BLOCK-MARBLE",
       "chain_id": "juno-1",
       "token_address": "juno1g2g7ucurum66d42g8k5twk34yegdq8c82858gz0tq2fc75zy7khssgnhjl",
-      "swap_address": "",
+      "swap_address": "juno180jzqh7vefwuks6eyvf0lkecdl2mp8u08d844245faunja969p3s8w3t3q",
+      "incentives_address": "juno17tl4zhg98j8elgtwk580hqul0lk5q7gtamd3vlwjht70cjx2ssfs6vwusy",
       "symbol": "MARBLE",
       "name": "Marble",
       "decimals": 3,
@@ -75,6 +75,7 @@
       "pool_id": "BLOCK-JUNO",
       "chain_id": "juno-1",
       "token_address": "juno1y9rf7ql6ffwkv02hsgd4yruz23pn4w97p75e2slsnkm0mnamhzysvqnxaq",
+      "incentives_address": "juno1jkxqwxazm93nd7mgkavr46k8fyadpmlk4snf2r8kn7dn3jdw8a2sgzxupc",
       "swap_address": "juno1xf32js0lc6v7quxj5twuna97hwff7dhkz6psujavvknh2yzty5uq6wut8j",
       "symbol": "JUNO",
       "name": "Juno",
@@ -89,7 +90,8 @@
       "pool_id": "BLOCK-ATOM",
       "chain_id": "juno-1",
       "token_address": "",
-      "swap_address": "",
+      "swap_address": "juno1nljy8gst5agtc0zstfjytf2hrnj8vcxgcdzrp4qj7k2dcnrfz4wsu6ty4f",
+      "incentives_address": "juno1ac82jwnmfx7fqehac3ufwk7ve9juagsrk9umyduqzuwh9n7qjnesxe88k9",
       "symbol": "ATOM",
       "name": "Atom",
       "decimals": 6,
@@ -97,34 +99,6 @@
       "tags": ["native"],
       "native": true,
       "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9"
-    },
-    {
-      "id": "terrausd",
-      "pool_id": "BLOCK-UST",
-      "chain_id": "juno-1",
-      "token_address": "",
-      "swap_address": "",
-      "symbol": "UST",
-      "name": "Terra UST",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/ust.png",
-      "tags": ["native"],
-      "native":true,
-      "denom":"ibc/2DA4136457810BCB9DAAB620CA67BC342B17C3C70151CA70490A170DF7C9CB27"
-    },
-    {
-      "id": "terra-luna",
-      "pool_id": "BLOCK-LUNA",
-      "chain_id": "juno-1",
-      "token_address": "",
-      "swap_address": "",
-      "symbol": "LUNA",
-      "name": "LUNA",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/images/luna.png",
-      "tags": ["native"],
-      "native":true,
-      "denom":"ibc/8F865D9760B482FF6254EDFEC1FF2F1273B9AB6873A7DE484F89639795D73D75"
     },
     {
       "id": "osmosis",
